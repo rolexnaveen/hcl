@@ -1,0 +1,20 @@
+package com;
+
+public class Simple
+{
+	int a =10;
+	int b =20;
+	static int c=30;
+	
+	public static void main(String[] args) 
+	{
+		Simple s = new Simple();
+		System.out.println(s);
+		s.a=20;
+		s.b=40;
+		s.c=60;
+		System.out.println(s);
+		
+	}
+
+}

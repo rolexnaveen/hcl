@@ -1,0 +1,19 @@
+package com;
+
+public class Aall extends RuntimeException
+{
+
+	public String message="hilk";
+	
+	public Aall() {
+		super();
+	}
+	
+	public Aall(String message) {
+		super(message);
+		this.message = message;
+	}
+	public static void main(String[] args) {
+		Aall e= new Aall();
+		
+}

@@ -1,0 +1,33 @@
+package com;
+
+public class Simple
+{
+	int a =10;
+	int b =20;
+	static int c=30;
+	
+	public static void main(String[] args) 
+	{
+		Simple s = new Simple();
+		System.out.println(s);// a=10 ; b=20 ;c=30
+		s.a=20;
+		s.b=40;
+		s.c=60;
+		System.out.println(s);//
+		
+		Simple s1 = new Simple();
+		System.out.println(s1);
+		s1.a=60;
+		s1.b=90;
+		s1.c=s.b;
+		System.out.println(s1);
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Simple [a=" + a + ", b=" + b + ",c=" +c+"]";
+	}
+	
+
+}
